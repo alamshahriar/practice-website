@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 1905px;
+    max-width: 1120px;
     margin: auto;
 }
 
@@ -16,6 +16,8 @@ header {
 
 .icon {
     padding-top: 208px;
+    font-size: 45px;
+    color: #FFF;
 }
 
 .design-lover {
@@ -44,6 +46,7 @@ header {
 /* main related style */
 .work-time {
     background-color: #353839;
+    text-align: center;
 }
 
 .personal-info {
@@ -119,9 +122,10 @@ header {
 
 .box {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    align-items: center;
+    text-align: center;
+    margin-top: 76px;
 }
 
 .box a {
@@ -137,7 +141,6 @@ header {
 }
 
 .box-body {
-    width: 296px;
     height: 300px;
     background-color: blueviolet;
 }
@@ -146,8 +149,15 @@ header {
     color: rgb(255, 255, 255);
     font-size: 16px;
     background: #04AA6D;
-    padding: 40px, 60px;
+    padding: 24px 59px;
     border: none;
+    border-radius: 8px;
+    margin-top: 96px;
+    margin-bottom: 70px;
+}
+
+.photography {
+    text-align: center;
 }
 
 .photo {
@@ -165,4 +175,52 @@ header {
     font-size: 29px;
     max-width: 694px;
     margin: auto;
+}
+
+.subscribe {
+    background-color: #353839;
+    text-align: center;
+}
+
+.subscribe-description {
+    color: #FFF;
+    font-size: 16px;
+    max-width: 594px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 57px;
+}
+
+.apple-pic {
+    margin-top: 221px;
+}
+
+input[type="email"] {
+    width: 417px;
+    height: 57px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 5px;
+    margin-top: 57px;
+    margin-bottom: 198px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 111px;
+    margin-bottom: 197px;
+}
+
+.footer-img {
+    font-size: 40px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-bottom: 96px;
+    color: #9b9799;
+}
+
+.footer-description {
+    color: #9b9799;
 }
