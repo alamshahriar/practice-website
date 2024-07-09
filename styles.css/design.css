@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1905px;
+    margin: auto;
+}
+
+/* header related style */
+header {
+    background-color: #353839;
+    padding-bottom: 323px;
+}
+
+.icon {
+    padding-top: 208px;
+}
+
+.design-lover {
+    text-align: center;
+}
+
+.apple {
+    margin-top: 65px;
+}
+
+.design-title {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 161px;
+}
+
+.design-description {
+    color: #FFF;
+    font-size: 16px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+/* main related style */
+.work-time {
+    background-color: #353839;
+}
+
+.personal-info {
+    text-align: center;
+    margin-top: 102px;
+}
+
+.info-description {
+    color: #9b9799;
+    font-size: 28px;
+    max-width: 694px;
+    margin: auto;
+}
+
+.what {
+    text-align: center;
+    margin-top: 113px;
+}
+
+.section-title {
+    color: #353839;
+    font-size: 60px;
+}
+
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    padding: 30px;
+}
+
+.skill p {
+    color: #9b9799;
+    font-size: 16px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.work {
+    text-align: center;
+}
+
+.work-title {
+    color: #FFFFFF;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.work ul {
+    display: flex;
+    justify-content: center;
+}
+
+.work li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+.work li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+}
+
+.work li a:hover {
+    color: #FFFFFF;
+    text-decoration: underline #720058;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+}
+
+.box h1 {
+    color: #FFF;
+    font-size: 18px;
+
+}
+
+.box-body {
+    width: 296px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background: #04AA6D;
+    padding: 40px, 60px;
+    border: none;
+}
+
+.photo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.photo-title {
+    color: #353839;
+    font-size: 80px;
+}
+
+.photo-description {
+    color: #9b9799;
+    font-size: 29px;
+    max-width: 694px;
+    margin: auto;
+}
